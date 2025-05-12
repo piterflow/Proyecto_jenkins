@@ -18,7 +18,7 @@ pipeline {
                 script {
                     // Configura Git
                     sh 'git config user.name "piterflow"'
-                    sh 'git config user.email "aruicab200@g.educaand.es"'
+                    sh 'git config user.email "andresrzcabel@gmail.com"'
 
                     // Añade y hace commit
                     sh 'git add .'
