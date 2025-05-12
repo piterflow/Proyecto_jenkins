@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_CREDENTIALS_ID = 'github-creds'
+        GIT_CREDENTIALS_ID = 'piterflow'
         GIT_REPO_URL = 'https://github.com/piterflow/Proyecto_jenkins.git'
     }
 
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Configura Git
-                    sh 'git config user.name "Jenkins CI"'
+                    sh 'git config user.name "piterflow"'
                     sh 'git config user.email "aruicab200@g.educaand.es"'
 
                     // Añade y hace commit
