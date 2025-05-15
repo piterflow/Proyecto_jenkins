@@ -48,7 +48,7 @@ pipeline {
                     sh '''
                         git add "${FILE_TO_TRACK}"
                         git commit -m "Auto-commit de ${FILE_TO_TRACK} desde Jenkins" || echo "Nada que commitear"
-                        git push https://${USERNAME}:${PASSWORD}@github.com/piterflow/Visigodos.git HEAD:${BRANCH}
+                        git push https://${USERNAME}:${PASSWORD}@github.com/piterflow/Proyecto_jenkins.git HEAD:${BRANCH}
                     '''
                 }
             }
