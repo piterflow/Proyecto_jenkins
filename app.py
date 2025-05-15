@@ -15,6 +15,9 @@ def saludo():
     # Usamos una etiqueta <h1> de HTML para que el texto aparezca como un encabezado grande.
     return '<h1>Hola Profesorado del Rodrigo Caro</h1>'
 
+def saludo2():
+    return '<h2>Esto es una prueba más</h2>'
+
 # 5. Comprobar si el script se está ejecutando directamente
 # Esto es estándar en Python para asegurarse de que el código dentro de este bloque
 # solo se ejecute cuando corres el script directamente (python app.py),
