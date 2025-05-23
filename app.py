@@ -15,17 +15,8 @@ def saludo():
     # Usamos una etiqueta <h1> de HTML para que el texto aparezca como un encabezado grande.
     return '<h1>Hola Profesorado del Rodrigo Caro</h1>'
 
-def saludo2():
-    return '<h2>Esto es una prueba más</h2>'
 
-# 5. Comprobar si el script se está ejecutando directamente
-# Esto es estándar en Python para asegurarse de que el código dentro de este bloque
-# solo se ejecute cuando corres el script directamente (python app.py),
-# y no cuando lo importas en otro script.
 if __name__ == '__main__':
-    # 6. Ejecutar la aplicación en un servidor de desarrollo local.
-    # debug=True activa el modo de depuración, que es útil durante el desarrollo
-    # porque reinicia automáticamente el servidor si cambias el código y
-    # muestra errores detallados en el navegador.
+   
     # Por defecto, se ejecutará en http://127.0.0.1:5000/
     app.run(host="0.0.0.0", port=5000, debug=True)
